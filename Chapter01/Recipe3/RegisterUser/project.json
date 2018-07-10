@@ -1,9 +1,12 @@
 {
-        "frameworks" : {
-            "net46": {
-                "dependencies":{
-                    "Newtonsoft.Json" : "10.0.2"
-                    }
-                 }
+    "frameworks" : 
+    {
+        "net46": 
+        {
+            "dependencies":
+            {
+                "Newtonsoft.Json" : "10.0.2"
             }
         }
+    }
+}
