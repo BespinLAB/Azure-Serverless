@@ -1,10 +1,10 @@
 # Azure Serverless
 **Azure Functions를 이용하여 Serverless 개념을 이해하고 직접 구현해봅니다.**
 
-- [Prerequisites](#Prerequisites)
-- [Contents](#Contents)
-    - [Intro](#Intro)
-    - [Chapter1](#Chapter1)
+- [Prerequisites](#prerequisites)
+- [Contents](#contents)
+    - [Intro](#intro)
+    - [Chapter1](#chapter1)
 
 
 ## Prerequisites
@@ -13,11 +13,13 @@
 - [Azure Storage Explorer](https://azure.microsoft.com/ko-kr/features/storage-explorer/)
 
 ## Contents
+
 ### Intro
 
     - Serverless Intro
     - Azure Functions
     - Azure Functions 생성
+    
 ### Chapter1
 유저를 등록하는 기능을 구현합니다
 
