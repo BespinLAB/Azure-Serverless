@@ -14,11 +14,13 @@
 
 ## Contents
 ### Intro
+
     - Serverless Intro
     - Azure Functions
     - Azure Functions 생성
 ### Chapter1
 유저를 등록하는 기능을 구현합니다
+
     - HTTP Trigger 생성
     - HTTP Trigger와 Table Storage 연결
     - HTTP Trigger와 Queue Storage 연결
