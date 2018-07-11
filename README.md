@@ -9,6 +9,7 @@
 
 ## Prerequisites
 - [Azure 계정](https://azure.microsoft.com/ko-kr/){:target="_blank"}
+- <a href="https://azure.microsoft.com/ko-kr/" target="_blank">Azure 계정</a>
 - [Visual Studio Community 2017](https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=Community&rel=15){:target="_blank"}
 - [Azure Storage Explorer](https://azure.microsoft.com/ko-kr/features/storage-explorer/){:target="_blank"}
 
