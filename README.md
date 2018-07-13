@@ -39,3 +39,5 @@
     - Blob storage에 발송 로그 생성
     - 첨부파일 추가하여 메일 발송
     - Twilio 서비스와 연동하여 사용자에게 SMS 발송
+
+![](/data/chapter02.PNG)
