@@ -28,3 +28,14 @@
     - HTTP Trigger와 Queue Storage 연결
     - Queue Trigger 만들고 Blob Storage와 연결
     - Image resizer로 이미지 수정
+
+![](/data/chapter01.PNG)
+
+### [Chapter2](https://goo.gl/cUvQ2g)
+외부 서비스와 연동하여 메일과 SMS를 발송합니다.
+
+    - Sendgrid 서비스와 연동하여 관리자 알림 메일 구현
+    - 사용자에게 알림 메일 발송
+    - Blob storage에 발송 로그 생성
+    - 첨부파일 추가하여 메일 발송
+    - Twilio 서비스와 연동하여 사용자에게 SMS 발송
