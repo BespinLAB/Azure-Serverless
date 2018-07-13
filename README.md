@@ -5,6 +5,7 @@
 - [Contents](#contents)
     - [Intro](#intro)
     - [Chapter1](#chapter1)
+    - [Chapter2](#chapter2)
 
 
 ## Prerequisites
@@ -31,7 +32,7 @@
 
 ![](/data/chapter01.PNG)
 
-### [Chapter2](https://goo.gl/cUvQ2g)
+### Chapter2
 외부 서비스와 연동하여 메일과 SMS를 발송합니다.
 
     - Sendgrid 서비스와 연동하여 관리자 알림 메일 구현
