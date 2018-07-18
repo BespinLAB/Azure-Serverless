@@ -31,6 +31,7 @@ public static void Run(HttpRequestMessage req,
         TableOperation.Insert(objUserProfile);
     TableResult objTableResult = objUserProfileTable.Execute(objTblOperationInsert);
     UserProfile objInsertedUser = (UserProfile)objTableResult.Result;
+    
     message = new Mail();
     message.Subject = "New User got registered successfully.";
     message.From = new Email("donotreply@example.com");

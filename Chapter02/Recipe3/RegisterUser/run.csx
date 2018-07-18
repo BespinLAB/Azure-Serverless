@@ -7,11 +7,10 @@ using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 public static void Run(HttpRequestMessage req, 
                         TraceWriter log,
-                        CloudTable         
-                        objUserProfileTable,
-                        out string 
-                        objUserProfileQueueItem,
-                        out Mail message, TextWriter outputBlob
+                        CloudTable objUserProfileTable,
+                        out string objUserProfileQueueItem,
+                        out Mail message, 
+                        TextWriter outputBlob
                         )
 {
     var inputs = req.Content.ReadAsStringAsync().Result;
@@ -29,8 +28,8 @@ public static void Run(HttpRequestMessage req,
         lastname, profilePicUrl,email);
     TableOperation objTblOperationInsert = 
         TableOperation.Insert(objUserProfile);
-    
     objUserProfileTable.Execute(objTblOperationInsert);
+    
     message = new Mail();
     message.Subject = "New User got registered successfully.";
     message.From = new Email("donotreply@example.com");
