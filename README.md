@@ -24,7 +24,7 @@
     - Azure Functions 생성
 
 ### Chapter1
-[Youtube](https://goo.gl/cUvQ2g)
+[Youtube](https://goo.gl/cUvQ2g)<br>
 사용자를 등록하는 기능을 구현합니다.
 
     - HTTP Trigger 생성
@@ -36,7 +36,7 @@
 ![](/data/chapter01.PNG)
 
 ### Chapter2
-[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9luSZZrF0EMaopZJWjkjFv2)
+[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9luSZZrF0EMaopZJWjkjFv2)<br>
 외부 서비스와 연동하여 메일과 SMS를 발송합니다.
 
     - Sendgrid 서비스와 연동하여 관리자 알림 메일 구현
@@ -48,7 +48,7 @@
 ![](/data/chapter02.PNG)
 
 ### Chapter3
-[Youtube](https://)
+[Youtube](https://)<br>
 Functions와 Logic Apps로 다양한 서비스를 구현합니다.
 
     - Azure Cognitive와 연동하여 인물의 성별과 나이 예측
@@ -57,4 +57,4 @@ Functions와 Logic Apps로 다양한 서비스를 구현합니다.
     - Logic Apps로 트위터 모니터링하여 Gmail로 발송
     - Logic Apps와 Functions로 트위터에 새 글이 올라오면 SendGrid로 메일 발송
 
-![](/data/chapter03.PNG)
+![](/data/chapter03.png)
