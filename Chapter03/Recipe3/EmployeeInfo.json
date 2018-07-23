@@ -1,0 +1,28 @@
+[{
+    "firstname": "Jihong",
+    "lastname": "Lee",
+    "email": "jihong.lee@outlook.com",
+    "devicelist":
+    [
+        {   "DeviceType": "LG G5",
+            "Color":"Gray"
+        },
+        {   "DeviceType": "LG Gram",
+            "Color":"White"
+        }
+    ]
+},
+{
+    "firstname": "Gildong",
+    "lastname": "Hong",
+    "email": "example@example.com",
+    "devicelist":
+    [
+        {   "DeviceType": "Blackberry",
+            "Color":"Black"
+        },
+        {   "DeviceType": "Laptop",
+            "Color":"Black"
+        }
+    ]
+}]
