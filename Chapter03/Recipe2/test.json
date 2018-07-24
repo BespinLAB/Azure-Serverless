@@ -1,0 +1,16 @@
+{
+    "firstname": "Gildong",
+    "lastname": "Hong",
+    "email": "gd@example.com",
+    "devicelist":
+        "[
+            {
+                'Type' : 'Mobile Phone',
+                'Company':'Microsoft'
+            },
+            {
+                'Type' : 'Laptop',
+                'Company':'LG'
+            }
+        ]"
+}
