@@ -1,9 +1,3 @@
-// Setup
-// 1) Go to https://www.microsoft.com/cognitive-services/en-us/computer-vision-api 
-//    Sign up for computer vision api
-// 2) Go to Function app settings -> App Service settings -> Settings -> Application settings
-//    create a new app setting Vision_API_Subscription_Key and use Computer vision key as value
-
 #r "Microsoft.WindowsAzure.Storage"
 #r "Newtonsoft.Json"
 
@@ -48,7 +42,7 @@ private static async Task<string> CallVisionAPI(Stream image)
     using (var client = new HttpClient())
     {
         var content = new StreamContent(image);
-        var url = "https://eastasia.api.cognitive.microsoft.com/vision/v1.0/analyze?visualFeatures=Faces";
+        var url = "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0/analyze?visualFeatures=Faces";
         client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", Environment.GetEnvironmentVariable("Vision_API_Subscription_Key"));
         content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
         var httpResponse = await client.PostAsync(url, content);
