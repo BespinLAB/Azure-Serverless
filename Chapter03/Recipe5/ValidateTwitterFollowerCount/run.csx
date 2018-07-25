@@ -23,7 +23,7 @@ public static void Run(HttpRequestMessage req,
           message.AddContent(new Content("text/html",strTweet));
           
           Personalization personalization = new Personalization();
-          personalization.AddTo(new Email("praveen.sreeram@gmail.com"));
+          personalization.AddTo(new Email("your@mail.com"));
           message.AddPersonalization(personalization);
     }
     else
