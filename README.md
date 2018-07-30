@@ -7,6 +7,7 @@
     - [Chapter1](#chapter1)
     - [Chapter2](#chapter2)
     - [Chapter3](#chapter3)
+    - [Chapter4](#chapter4)
 
 
 ## Prerequisites
@@ -48,7 +49,7 @@
 ![](/data/chapter02.PNG)
 
 ### Chapter3
-[Youtube](https://)<br>
+[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9nt6a3zgjFSSyATHHEThZUH)<br>
 Functions와 Logic Apps로 다양한 서비스를 구현합니다.
 
     - Azure Cognitive와 연동하여 인물의 성별과 나이 예측
@@ -58,3 +59,15 @@ Functions와 Logic Apps로 다양한 서비스를 구현합니다.
     - Logic Apps와 Functions로 트위터에 새 글이 올라오면 SendGrid로 메일 발송
 
 ![](/data/chapter03.png)
+
+### Chapter4
+[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9nnmbSqH_GoVj_JlQdhvOyz)<br>
+Visual Studio에서 Functions를 구현합니다.
+
+    - Visual Studio 2017에서 Function app 생성
+    - 로컬 환경에서 Azure Functions 구현
+    - 로컬 환경에서 Azure Storage 연결
+    - Visual Studio를 사용하여 Azure로 Functions 배포
+    - Visual Studio로 Azure 상의 Functions를 개발
+
+![](/data/chapter04.png)
