@@ -8,16 +8,13 @@
 - [Azure Storage Explorer](https://azure.microsoft.com/ko-kr/features/storage-explorer/)
 
 
-- [Contents](#contents)
-    - [Intro](#intro)
-    - [Chapter1](#chapter1)
-    - [Chapter2](#chapter2)
-    - [Chapter3](#chapter3)
-    - [Chapter4](#chapter4)
-
-
 ## Contents
-
+- [Intro](#intro)
+- [Chapter1](#chapter1)
+- [Chapter2](#chapter2)
+- [Chapter3](#chapter3)
+- [Chapter4](#chapter4)
+    
 ### Intro
 [Youtube](https://goo.gl/LFpWtC)
 
