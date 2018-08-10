@@ -17,6 +17,7 @@
 - [Chapter3](#chapter3)
 - [Chapter4](#chapter4)
 - [Chapter5](#chapter5)
+- [Chapter6](#chapter6)
     
     
 ### Intro
@@ -76,4 +77,16 @@ Visual Studio에서 Functions를 구현합니다.
 
 ### Chapter5
 [Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9mQz2Bqk7WolLZIahqm9Pun)<br>
+Azure Functions의 Test와 Monitoring을 수행합니다.
+
+    - Trigger 작동 확인 (Http, Blob, Queue)
+    - Staging 환경 구성하고 Swap 기능 사용
+    - Visual Studio Team Service에서 부하 테스트 진행
+    - Local 환경에서 Azure CLI로 Functions 생성하고 테스트
+    - Application Insight로 Functions Monitoring
+
+![](/data/chapter05.png)
+
+### Chapter6
+[Youtube]()<br>
 
