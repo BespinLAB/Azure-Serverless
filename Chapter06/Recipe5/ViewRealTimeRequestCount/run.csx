@@ -6,7 +6,7 @@ using System.Text;
 using Newtonsoft.Json.Linq;
 
 private const string AppInsightsApi = "https://api.applicationinsights.io/beta/apps";
-private const string RealTimePushURL = "https://api.powerbi.com/beta/e62467b7-b6a0-4699-868c-6e23ab90ac24/datasets/e56b8039-a7bf-4e94-80ee-4b626376ddcb/rows?key=3ZsrZduawfNjwdcrUB7Z4Ce7KBQ80FTrqxapzd0TpvqopwU93%2Bh7neXZtfLnjOFAF8PWIZZrjVcTvhuzWVArIw%3D%3D";
+private const string RealTimePushURL = "<PowerBI Push URL>";
 private static readonly string AiAppId = ConfigurationManager.AppSettings["AI_APP_ID"];
 private static readonly string AiAppKey = ConfigurationManager.AppSettings["AI_APP_KEY"];
 
