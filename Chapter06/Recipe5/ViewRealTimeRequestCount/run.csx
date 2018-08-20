@@ -20,7 +20,7 @@ public static async Task Run(TimerInfo myTimer, TraceWriter log)
       await RealTimeFeedRun(
       query: @"
 requests 
-| where timestamp > ago(5m) 
+| where timestamp > ago(3m) 
 | summarize passed = countif(success == true), total = count() 
 | project passed
 ",
@@ -30,7 +30,7 @@ requests
     log.Info($"Executing real-time Power BI run at: {DateTime.Now}");
    
 }
-private static async Task RealTimeFeedRun( string query, TraceWriter log)
+private static async Task RealTimeFeedRun(string query, TraceWriter log)
 {
     
     log.Info($"Feeding Data to Power BI has started at: {DateTime.Now}");
@@ -52,7 +52,7 @@ private static async Task RealTimeFeedRun( string query, TraceWriter log)
                 {                   
                     throw new FormatException("Query must result in a single metric number. Try it on Analytics before scheduling.");
                 }
-                 string postData = $"[{{ \"requests\": \"{result}\" }}]";
+                string postData = $"[{{ \"Requests\": \"{result}\",\"Timestamp\": \"{DateTime.Now}\" }}]";
                 log.Verbose($"[Verbose]: Sending data: {postData}");
    
                 using (var response = await httpClient.PostAsync(RealTimePushURL, new ByteArrayContent(Encoding.UTF8.GetBytes(postData))))
