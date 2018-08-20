@@ -77,16 +77,22 @@ Visual Studio에서 Functions를 구현합니다.
 
 ### Chapter5
 [Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9mQz2Bqk7WolLZIahqm9Pun)<br>
-Azure Functions의 Test와 Monitoring을 수행합니다.
+Azure Functions의 다양한 Test 방법을 수행합니다.
 
     - Trigger 작동 확인 (Http, Blob, Queue)
     - Staging 환경 구성하고 Swap 기능 사용
     - Visual Studio Team Service에서 부하 테스트 진행
     - Local 환경에서 Azure CLI로 Functions 생성하고 테스트
-    - Application Insight로 Functions Monitoring
+    - Application Insight로 Functions 작동 확인
 
 ![](/data/chapter05.png)
 
 ### Chapter6
 [Youtube]()<br>
+Azure Functions를 Monitoring 합니다.
 
+    - Functions 자체 기능을 활용하여 모니터링
+    - Application Insight를 사용하여 Functions 모니터링
+    - Application Insight Function을 사용하여 Custom Metric 구성
+    - Application Insight Function을 사용하여 일일 모니터링 보고서 발송
+    - Application Insight Function을 사용하여 PowerBI와 연계
