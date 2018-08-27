@@ -1,7 +1,8 @@
 #r "Microsoft.WindowsAzure.Storage"
-#r "..\bin\Utilities.dll"
-#r "Twilio.Api"
 #r "SendGrid" 
+#r "Twilio.Api"
+#r "..\bin\Utilities.dll"
+
 
 #load "..\SharedClasses\Helper.csx"
 
@@ -51,13 +52,12 @@ public static void Run(HttpRequestMessage req,
 }
 public class UserProfile : TableEntity
 {
-  public UserProfile(string lastName, string firstName,string             
-  profilePicUrl,string email)
+  public UserProfile(string firstname, string lastname, string profilePicUrl, string email)
   {
     this.PartitionKey = "p1";
     this.RowKey = Guid.NewGuid().ToString();;
-    this.FirstName = firstName; 
-    this.LastName = lastName; 
+    this.FirstName = firstname; 
+    this.LastName = lastname; 
     this.ProfilePicUrl = profilePicUrl; 
     this.Email = email;
   }

@@ -1,6 +1,7 @@
 #r "Microsoft.WindowsAzure.Storage"
-#r "Twilio.Api"
 #r "SendGrid" 
+#r "Twilio.Api"
+
 
 #load "..\SharedClasses\Helper.csx"
 
