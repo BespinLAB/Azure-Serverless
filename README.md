@@ -18,6 +18,7 @@
 - [Chapter4](#chapter4)
 - [Chapter5](#chapter5)
 - [Chapter6](#chapter6)
+- [Chapter7](#chapter7)
     
     
 ### Intro
@@ -88,7 +89,7 @@ Azure Functions의 다양한 Test 방법을 수행합니다.
 ![](/data/chapter05.png)
 
 ### Chapter6
-[Youtube]()<br>
+[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9ksReXcg0m0XsAyKEbZhpjr)<br>
 Azure Functions를 Monitoring 합니다.
 
     - Functions 자체 기능을 활용하여 모니터링
@@ -96,3 +97,15 @@ Azure Functions를 Monitoring 합니다.
     - Application Insight Function을 사용하여 Custom Metric 구성
     - Application Insight Function을 사용하여 일일 모니터링 보고서 발송
     - Application Insight Function을 사용하여 PowerBI와 연계
+
+![](/data/chapter06.png)
+
+### Chapter7
+[Youtube](https://www.youtube.com/playlist?list=PLoZOyjmMkw9lfKgxe1nah1nJ73juhWvWj)<br>
+코드 재사용성을 높이기 위해 Azure Functions를 Refactoring 합니다.
+
+    - 다른 Function에서 호출할 수 있는 Shared Class 생성
+    - Visual Studio에서 Build한 dll 파일 호출하여 활용
+    - Visual Studio에서 Build한 exe 파일 호출하여 활용
+
+![](/data/chapter07.png)
